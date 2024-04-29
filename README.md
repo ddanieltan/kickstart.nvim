@@ -1,5 +1,21 @@
 # kickstart.nvim
 
+## How to run this config independent from your current Neovim
+1. Clone repo in `.config`. Notice for work laptop us `@me.github` 
+```
+(dev) danieltan@Daniels-MBP .config % git clone git@me.github.com:ddanieltan/kickstart.nvim.git kickstart
+Cloning into 'kickstart'...
+remote: Enumerating objects: 749, done.
+remote: Total 749 (delta 0), reused 0 (delta 0), pack-reused 749
+Receiving objects: 100% (749/749), 412.92 KiB | 556.00 KiB/s, done.
+Resolving deltas: 100% (369/369), done.
+```
+
+2. use NVIM_APPNAME=<folder name> and call nvim
+```
+(dev) danieltan@Daniels-MBP .config % NVIM_APPNAME=kickstart nvim
+```
+
 ## Introduction
 
 A starting point for Neovim that is:
